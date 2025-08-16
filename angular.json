@@ -11,15 +11,15 @@
       "prefix": "app",
       "architect": {
         "build": {
-          
-          "builder": "@angular/build:application",
-          "options": {
-            "outputPath": "dist/greeter-ui-v2",
-              "index": "src/index.html",
-            "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+  "builder": "@angular-devkit/build-angular:application",
+  "options": {
+    "outputPath": "docs",           
+    "index": "src/index.html",
+    "browser": "src/main.ts",
+    "polyfills": [
+      "zone.js"
+    ],
+
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
