@@ -18,7 +18,7 @@ export class App {
   public greetingMessage: string = '';
 
   // The URL for our V2 backend API, running locally.
-  private readonly apiUrl = 'http://localhost:8080/api/greet';
+  private readonly apiUrl = 'https://greeter-api-v2.onrender.com/api/greet';
 
   // The constructor injects the HttpClient service so we can use it.
   constructor(private http: HttpClient) {}
